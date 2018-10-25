@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ColorPickTip_Example' do
+  pod 'ColorPickTip', :path => '../'
+
+  target 'ColorPickTip_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
