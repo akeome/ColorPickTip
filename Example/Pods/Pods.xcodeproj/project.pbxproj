@@ -44,10 +44,10 @@
 		1157F39E319BE1D2A51F83FC63FF18E7 /* Pods-ColorPickTip_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorPickTip_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		155B90EF2E1C1D77BBCDE66A858DA34A /* ColorPickTip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorPickTip.xcconfig; sourceTree = "<group>"; };
 		166235B0AF65305F9C9C71ECEF153751 /* Pods-ColorPickTip_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColorPickTip_Example-umbrella.h"; sourceTree = "<group>"; };
-		1A70279195C526653B7156784D8D67DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1A70279195C526653B7156784D8D67DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1DA49712B35342F1617D9107FC35FAFE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D5990E1563949A5D09D93BC8E51059B /* Pods-ColorPickTip_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorPickTip_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3F9625DE7E7CE5C81EEAD600B05BD64A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3F9625DE7E7CE5C81EEAD600B05BD64A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4638C2F413CDFC83E2EAD1D2F947A184 /* Pods-ColorPickTip_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ColorPickTip_Tests.modulemap"; sourceTree = "<group>"; };
 		53DB4BCBB579A07AFC9F2E0AC46A89C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -55,14 +55,14 @@
 		868B136C95430A85851F214E85E3AD30 /* Pods-ColorPickTip_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColorPickTip_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8D0F49687E2D05F8C4B2FA204A58B0CA /* Pods-ColorPickTip_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorPickTip_Example-resources.sh"; sourceTree = "<group>"; };
 		8ED0A784E4C3853A86301A2104F1DB1B /* Pods-ColorPickTip_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorPickTip_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A31B10093DD7AEFEC1EA69BC3994AC0 /* Pods-ColorPickTip_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorPickTip_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A275AC8B9A3CDF90D8FC0D22329984D0 /* Pods-ColorPickTip_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorPickTip_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A85D2F4EC83AC88B8E173D66198A3926 /* Pods-ColorPickTip_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorPickTip_Tests-resources.sh"; sourceTree = "<group>"; };
-		ABB509D65E0FC5A625A96AA8674C39C5 /* ColorPickTip.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ColorPickTip.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABB509D65E0FC5A625A96AA8674C39C5 /* ColorPickTip.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ColorPickTip.podspec; sourceTree = "<group>"; };
 		BDB87A5FAD59E7201A47085AF888FAB8 /* ColorPickTip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorPickTip-umbrella.h"; sourceTree = "<group>"; };
 		BF8BC4A1153EBD604C7A5BB402E309A6 /* ColorPickTip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorPickTip-prefix.pch"; sourceTree = "<group>"; };
-		CEB5BC08AF53DD0F4E20689C90F09D04 /* Pods_ColorPickTip_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ColorPickTip_Tests.framework; path = "Pods-ColorPickTip_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB5BC08AF53DD0F4E20689C90F09D04 /* Pods_ColorPickTip_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorPickTip_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF31E276E47ED48F6025B03CB7E07B9A /* Pods-ColorPickTip_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorPickTip_Example-dummy.m"; sourceTree = "<group>"; };
 		D0135A39E6A714B9A7588EB2079473B0 /* Pods-ColorPickTip_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorPickTip_Tests-dummy.m"; sourceTree = "<group>"; };
 		D73A272F20486A7F9E71AB86CDF3BD35 /* ColorPickTip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColorPickTip-dummy.m"; sourceTree = "<group>"; };
@@ -70,8 +70,8 @@
 		EE714B9D1EFDA64CCF71CA2EB53FD038 /* Pods-ColorPickTip_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColorPickTip_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F09A9B5D0AA05D3FBFF81212BE94C807 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4D274B6705ECBB56BD9F1B2E84B328A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ColorPickTip/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		F4D89F0ABF4B4D9F29AAB9726B7789FA /* Pods_ColorPickTip_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ColorPickTip_Example.framework; path = "Pods-ColorPickTip_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEB278D9FB3131AFD96DE14DAF71584C /* ColorPickTip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ColorPickTip.framework; path = ColorPickTip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D89F0ABF4B4D9F29AAB9726B7789FA /* Pods_ColorPickTip_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorPickTip_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB278D9FB3131AFD96DE14DAF71584C /* ColorPickTip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorPickTip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
