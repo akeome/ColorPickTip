@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		763A424030422C07D3319095 /* Pods_ColorPickTip_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365D9AEE83219F7622F9FD75 /* Pods_ColorPickTip_Tests.framework */; };
+		B6F17AF621872A8C00637809 /* SamplePalettes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F17AF521872A8C00637809 /* SamplePalettes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +32,7 @@
 		2329CBA4689E92439E826FD7 /* Pods_ColorPickTip_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorPickTip_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		365D9AEE83219F7622F9FD75 /* Pods_ColorPickTip_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorPickTip_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42A9EFA8CC3FAC5BA7956B95 /* Pods-ColorPickTip_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorPickTip_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorPickTip_Example/Pods-ColorPickTip_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		47D56E64E5DF01C510ADE4AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		47D56E64E5DF01C510ADE4AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		59BB48A87AC147793DA0BF46 /* Pods-ColorPickTip_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorPickTip_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorPickTip_Example/Pods-ColorPickTip_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5C0F8FE8B8FACB87BF0009AB /* Pods-ColorPickTip_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorPickTip_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorPickTip_Tests/Pods-ColorPickTip_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ColorPickTip_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorPickTip_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,8 +45,9 @@
 		607FACE51AFB9204008FA782 /* ColorPickTip_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorPickTip_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		9E983C52B846DC2264B022A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B08D279E117AD77805285F8C /* ColorPickTip.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ColorPickTip.podspec; path = ../ColorPickTip.podspec; sourceTree = "<group>"; };
+		9E983C52B846DC2264B022A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B08D279E117AD77805285F8C /* ColorPickTip.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ColorPickTip.podspec; path = ../ColorPickTip.podspec; sourceTree = "<group>"; };
+		B6F17AF521872A8C00637809 /* SamplePalettes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePalettes.swift; sourceTree = "<group>"; };
 		C056E420FB3FB1E1ADC8BDF1 /* Pods-ColorPickTip_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorPickTip_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorPickTip_Tests/Pods-ColorPickTip_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				B6F17AF521872A8C00637809 /* SamplePalettes.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -212,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 52349S2K73;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 52349S2K73;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -323,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				B6F17AF621872A8C00637809 /* SamplePalettes.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,6 +475,7 @@
 			baseConfigurationReference = 42A9EFA8CC3FAC5BA7956B95 /* Pods-ColorPickTip_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 52349S2K73;
 				INFOPLIST_FILE = ColorPickTip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -476,6 +483,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -484,6 +492,7 @@
 			baseConfigurationReference = 59BB48A87AC147793DA0BF46 /* Pods-ColorPickTip_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 52349S2K73;
 				INFOPLIST_FILE = ColorPickTip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -491,6 +500,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -498,6 +508,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5C0F8FE8B8FACB87BF0009AB /* Pods-ColorPickTip_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 52349S2K73;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -520,6 +531,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C056E420FB3FB1E1ADC8BDF1 /* Pods-ColorPickTip_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 52349S2K73;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

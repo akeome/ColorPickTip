@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		300F5B3B3D8D11C30870370B8DC2870B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D274B6705ECBB56BD9F1B2E84B328A /* ReplaceMe.swift */; };
 		42184F1C0EC4D3C9E586CF683A0052BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		52897150EBA043CCC45C8DF053D5818C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		555F3DFB4CFD319F27756BFFF293A6CB /* Pods-ColorPickTip_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FD20E35BAB4D8C7B73E60850F2BF9E5 /* Pods-ColorPickTip_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72A3F22D989689F1C1FADAF03221A1A0 /* Pods-ColorPickTip_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0135A39E6A714B9A7588EB2079473B0 /* Pods-ColorPickTip_Tests-dummy.m */; };
 		7A1E6D05FD6F672C244C79D965370A32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9EFD2D489D39026BCE0642BF47A00DFB /* ColorPickTip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A272F20486A7F9E71AB86CDF3BD35 /* ColorPickTip-dummy.m */; };
+		B638C22F2182347A007C985B /* ColorPickTipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C22E2182347A007C985B /* ColorPickTipViewController.swift */; };
+		B638C2312182359C007C985B /* ColorPickTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C2302182359C007C985B /* ColorPickTipView.swift */; };
+		B6F17AF82187596000637809 /* ColorPickCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F17AF72187596000637809 /* ColorPickCollectionCell.swift */; };
 		E71B1B2A4677677C5F8972A640581656 /* Pods-ColorPickTip_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 166235B0AF65305F9C9C71ECEF153751 /* Pods-ColorPickTip_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA22D8894C7AAABEBE292DCD4FEFD12F /* ColorPickTip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB87A5FAD59E7201A47085AF888FAB8 /* ColorPickTip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB7CB46E3B6A6E7BAFF738C1BA0EE8C0 /* Pods-ColorPickTip_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF31E276E47ED48F6025B03CB7E07B9A /* Pods-ColorPickTip_Example-dummy.m */; };
@@ -60,6 +62,9 @@
 		A275AC8B9A3CDF90D8FC0D22329984D0 /* Pods-ColorPickTip_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorPickTip_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A85D2F4EC83AC88B8E173D66198A3926 /* Pods-ColorPickTip_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorPickTip_Tests-resources.sh"; sourceTree = "<group>"; };
 		ABB509D65E0FC5A625A96AA8674C39C5 /* ColorPickTip.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ColorPickTip.podspec; sourceTree = "<group>"; };
+		B638C22E2182347A007C985B /* ColorPickTipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickTipViewController.swift; sourceTree = "<group>"; };
+		B638C2302182359C007C985B /* ColorPickTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickTipView.swift; sourceTree = "<group>"; };
+		B6F17AF72187596000637809 /* ColorPickCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickCollectionCell.swift; sourceTree = "<group>"; };
 		BDB87A5FAD59E7201A47085AF888FAB8 /* ColorPickTip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorPickTip-umbrella.h"; sourceTree = "<group>"; };
 		BF8BC4A1153EBD604C7A5BB402E309A6 /* ColorPickTip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorPickTip-prefix.pch"; sourceTree = "<group>"; };
 		CEB5BC08AF53DD0F4E20689C90F09D04 /* Pods_ColorPickTip_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorPickTip_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,7 +74,6 @@
 		DC2D58AEF191FD13FB7C282F34C41DA9 /* Pods-ColorPickTip_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorPickTip_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		EE714B9D1EFDA64CCF71CA2EB53FD038 /* Pods-ColorPickTip_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColorPickTip_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F09A9B5D0AA05D3FBFF81212BE94C807 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4D274B6705ECBB56BD9F1B2E84B328A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ColorPickTip/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		F4D89F0ABF4B4D9F29AAB9726B7789FA /* Pods_ColorPickTip_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorPickTip_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB278D9FB3131AFD96DE14DAF71584C /* ColorPickTip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorPickTip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -209,7 +213,9 @@
 		D847FAF4229B0F0EACEA056C6F72E854 /* ColorPickTip */ = {
 			isa = PBXGroup;
 			children = (
-				F4D274B6705ECBB56BD9F1B2E84B328A /* ReplaceMe.swift */,
+				B638C2302182359C007C985B /* ColorPickTipView.swift */,
+				B638C22E2182347A007C985B /* ColorPickTipViewController.swift */,
+				B6F17AF72187596000637809 /* ColorPickCollectionCell.swift */,
 				747D9F0DFDC445C65A8AADA7F88AD102 /* Pod */,
 				2EF987B6C33C7D499277A32172A279E5 /* Support Files */,
 			);
@@ -360,7 +366,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EFD2D489D39026BCE0642BF47A00DFB /* ColorPickTip-dummy.m in Sources */,
-				300F5B3B3D8D11C30870370B8DC2870B /* ReplaceMe.swift in Sources */,
+				B638C22F2182347A007C985B /* ColorPickTipViewController.swift in Sources */,
+				B6F17AF82187596000637809 /* ColorPickCollectionCell.swift in Sources */,
+				B638C2312182359C007C985B /* ColorPickTipView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
