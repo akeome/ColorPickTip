@@ -67,6 +67,7 @@ public var viewSize: CGSize
 
 ## Author
 
+Yuki Yamashita@akeome 
 [Twitter](https://twitter.com/akeome)
 
 ## License
