@@ -31,6 +31,40 @@ it, simply add the following line to your Podfile:
 pod 'ColorPickTip'
 ```
 
+## Usage
+
+ColorPickTip is based on UIPopoverPresentationController.
+To show it, use `present(_:animated:completion:)` method.
+
+```swift
+let paletteColors: [[UIColor?]] = [[.red, .green, .blue], [.white, nil, .black]]
+
+let colorPickTipVC = ColorPickTipController(palette: paletteColors, options: nil)
+colorPickTipVC.popoverPresentationController?.delegate = colorPickTipVC
+colorPickTipVC.popoverPresentationController?.barButtonItem = sender // some UIButton
+        
+self.present(colorPickTipVC, animated: true, completion: nil)
+```
+
+## Options
+
+There are some options.
+
+```swift
+/// Theme color of PopupView. Default is light.
+public var popoverViewTheme: PopoverViewTheme
+
+/// Style for color palette. Default is round.
+public var paletteStyle: PaletteStyle
+
+/// Dismiss popover after picked. Default is true.
+public var isDismissOnPick: Bool
+
+/// ViewSize. Default is width:240 / height:150.
+public var viewSize: CGSize
+```
+
+
 ## Author
 
 [Twitter](https://twitter.com/akeome)
