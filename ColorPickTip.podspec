@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Simple color-picker for iOS based on UIPopoverPresentationController.
                        DESC
 
   s.homepage         = 'https://github.com/akeome/ColorPickTip'
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ColorPickTip/Classes/**/*'
+  s.source_files = 'ColorPickTip/**/*.swift'
   
   # s.resource_bundles = {
   #   'ColorPickTip' => ['ColorPickTip/Assets/*.png']
