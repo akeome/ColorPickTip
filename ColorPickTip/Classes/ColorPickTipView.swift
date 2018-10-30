@@ -12,7 +12,7 @@ public class ColorPickTip: UIView {
     
     weak internal var delegate: ColorPickTipDelegate?
     fileprivate var colors:[[UIColor?]]
-    private var style: Options.PaletteStyle
+    internal var style: Options.PaletteStyle
     
     internal init(viewSize: CGSize, palette: [[UIColor?]], options: Options) {
         

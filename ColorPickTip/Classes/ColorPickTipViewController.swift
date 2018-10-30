@@ -15,7 +15,7 @@ protocol ColorPickTipDelegate: class {
 open class ColorPickTipController: UIViewController {
     
     private var palette = [[UIColor?]]()
-    private var options: ColorPickTip.Options
+    internal var options: ColorPickTip.Options
     public var selected: ((_ color: UIColor?)->())?
     
     public init(palette: [[UIColor?]] ,options: ColorPickTip.Options?) {
