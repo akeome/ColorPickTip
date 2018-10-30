@@ -194,6 +194,16 @@
 			path = "Target Support Files/Pods-ColorPickTip_Tests";
 			sourceTree = "<group>";
 		};
+		B6F17AF921888AAE00637809 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B638C2302182359C007C985B /* ColorPickTipView.swift */,
+				B638C22E2182347A007C985B /* ColorPickTipViewController.swift */,
+				B6F17AF72187596000637809 /* ColorPickCollectionCell.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,9 +223,7 @@
 		D847FAF4229B0F0EACEA056C6F72E854 /* ColorPickTip */ = {
 			isa = PBXGroup;
 			children = (
-				B638C2302182359C007C985B /* ColorPickTipView.swift */,
-				B638C22E2182347A007C985B /* ColorPickTipViewController.swift */,
-				B6F17AF72187596000637809 /* ColorPickCollectionCell.swift */,
+				B6F17AF921888AAE00637809 /* Sources */,
 				747D9F0DFDC445C65A8AADA7F88AD102 /* Pod */,
 				2EF987B6C33C7D499277A32172A279E5 /* Support Files */,
 			);
