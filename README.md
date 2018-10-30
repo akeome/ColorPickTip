@@ -5,11 +5,22 @@
 [![License](https://img.shields.io/cocoapods/l/ColorPickTip.svg?style=flat)](https://cocoapods.org/pods/ColorPickTip)
 [![Platform](https://img.shields.io/cocoapods/p/ColorPickTip.svg?style=flat)](https://cocoapods.org/pods/ColorPickTip)
 
-## Example
+## Overview
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+- Simple color-picker for iOS.
+- Picked color is detected in closure.
+- Customizable palette using UIColor.
+
+## Demo
+
+![oct-30-2018 21-16-30](https://user-images.githubusercontent.com/20479956/47717548-651f9900-dc89-11e8-8372-0dcee16b8fbd.gif)
+![oct-30-2018 21-18-10](https://user-images.githubusercontent.com/20479956/47717564-71a3f180-dc89-11e8-88a3-dde17e4f01e4.gif)
 
 ## Requirements
+
+- Xcode10
+- Swift 4.2
+- iOS 9.3 or higher
 
 ## Installation
 
@@ -22,7 +33,7 @@ pod 'ColorPickTip'
 
 ## Author
 
-akeome, akeomestudio@gmail.com
+[Twitter](https://twitter.com/akeome)
 
 ## License
 
