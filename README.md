@@ -41,7 +41,8 @@ let paletteColors: [[UIColor?]] = [[.red, .green, .blue], [.white, nil, .black]]
 
 let colorPickTipVC = ColorPickTipController(palette: paletteColors, options: nil)
 colorPickTipVC.popoverPresentationController?.delegate = colorPickTipVC
-colorPickTipVC.popoverPresentationController?.barButtonItem = sender // some UIButton
+colorPickTipVC.popoverPresentationController?.sourceView = sender  // some UIButton
+colorPickTipVC.popoverPresentationController?.sourceRect = sender.bounds
         
 self.present(colorPickTipVC, animated: true, completion: nil)
 ```
