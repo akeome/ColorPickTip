@@ -68,10 +68,9 @@ class ViewController: UIViewController {
         
         self.present(colorPickTipVC, animated: true, completion: nil)
         
-        
-        
         colorPickTipVC.selected = {
-            color in
+            color, index in
+            print("picked color: \(String(describing: color)), index: \(String(describing: index))")
             guard color != nil else {return}
             self.button.backgroundColor = color
             self.view.tintColor = color
@@ -102,7 +101,8 @@ class ViewController: UIViewController {
         
         
         colorPickTipVC.selected = {
-            color in
+            color, index in
+            print("picked color: \(String(describing: color)), index: \(String(describing: index))")
             guard color != nil else {return}
             self.button.backgroundColor = color
             self.view.tintColor = color

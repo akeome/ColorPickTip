@@ -61,16 +61,16 @@ public class ColorPickTip: UIView {
     
     public struct Options {
         
-        /// Theme color of PopupView
+        /// Theme color of PopupView. Default is light.
         public var popoverViewTheme: PopoverViewTheme
         
-        /// Style for color palette
+        /// Style for color palette. Default is round.
         public var paletteStyle: PaletteStyle
         
-        /// Dismiss popover after picked
+        /// Dismiss popover after picked. Default is true.
         public var isDismissOnPick: Bool
         
-        /// ViewSize
+        /// ViewSize. Default is width:240 / height:150.
         public var viewSize: CGSize
         
         public init(popupViewTheme: PopoverViewTheme = .light,
@@ -126,7 +126,7 @@ extension ColorPickTip: UICollectionViewDelegate, UICollectionViewDataSource  {
     public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
         let cell = collectionView.cellForItem(at: indexPath) as! ColorPickCollectionCell
-        self.delegate?.colorPickTip(self, pickedColor: cell.getColor())
+        self.delegate?.colorPickTip(self, pickedColor: cell.getColor(), index: indexPath.row)
         
     }
     

@@ -1,8 +1,8 @@
 {
   "name": "ColorPickTip",
-  "version": "0.1.0",
-  "summary": "A short description of ColorPickTip.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.3.0",
+  "summary": "A simple color picker view based on UIPopoverPresentationController.",
+  "description": "Simple color-picker for iOS based on UIPopoverPresentationController.",
   "homepage": "https://github.com/akeome/ColorPickTip",
   "license": {
     "type": "MIT",
@@ -13,10 +13,11 @@
   },
   "source": {
     "git": "https://github.com/akeome/ColorPickTip.git",
-    "tag": "0.1.0"
+    "tag": "0.3.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.3"
   },
-  "source_files": "ColorPickTip/Classes/**/*"
+  "swift_version": "4.2",
+  "source_files": "ColorPickTip/**/*.swift"
 }

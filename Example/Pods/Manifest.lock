@@ -1,5 +1,5 @@
 PODS:
-  - ColorPickTip (0.1.0)
+  - ColorPickTip (0.3.0)
 
 DEPENDENCIES:
   - ColorPickTip (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ColorPickTip: e1cb9636d9d4b1dfaa931b34fd775e414ba13fe5
+  ColorPickTip: c8ed9cde6c2bd7598407f84520a740cf65f83a42
 
 PODFILE CHECKSUM: c3335e4c6845ebcd78fe55f48280fadc7cbe66a5
 

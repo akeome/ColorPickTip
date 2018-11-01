@@ -8,7 +8,7 @@
 import UIKit
 
 protocol ColorPickTipDelegate: class {
-    func colorPickTip(_ colorPickTip: ColorPickTip, pickedColor: UIColor?)
+    func colorPickTip(_ colorPickTip: ColorPickTip, pickedColor: UIColor?, index: Int)
 }
 
 // Controller
@@ -16,7 +16,7 @@ open class ColorPickTipController: UIViewController {
     
     private var palette = [[UIColor?]]()
     internal var options: ColorPickTip.Options
-    public var selected: ((_ color: UIColor?)->())?
+    public var selected: ((_ color: UIColor?, _ index: Int)->())?
     
     public init(palette: [[UIColor?]] ,options: ColorPickTip.Options?) {
         
@@ -74,9 +74,9 @@ extension ColorPickTipController: UIPopoverPresentationControllerDelegate {
 
 
 extension ColorPickTipController: ColorPickTipDelegate {
-    func colorPickTip(_ colorPickTip: ColorPickTip, pickedColor: UIColor?) {
+    func colorPickTip(_ colorPickTip: ColorPickTip, pickedColor: UIColor?, index: Int) {
         
-        self.selected?(pickedColor)
+        self.selected?(pickedColor, index)
         
         if options.isDismissOnPick {
             self.dismiss(animated: true, completion: nil)
